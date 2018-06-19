@@ -6,10 +6,10 @@ body
 	
 }
 
-h1, h2, h3
+h1, h2, h3, h4
 {
 	color:Red;
-	font-family: 'Playfair Display', serif;
+	font-family: 'Pacifico', cursive;
 	text-align:center;
 	
 }
@@ -39,3 +39,41 @@ img
 	margin-left: auto;
 	margin-right: auto;
 }
+.myimg
+{
+	padding: 5px;
+	width: 100px;
+	height: 70px;
+	display: block;
+	float: right;
+}
+.myimg1
+{
+	padding: 5px;
+	width: 200px;
+	height: 200px;
+	display: block;
+	float: right;
+}
+.myback
+{
+	background-image: url("../img/chef.jpg");
+	background-repeat: no-repeat;
+	width: 1000px;
+	height: 1000px;
+	background-position-y: 250px;
+	background-position-x: -50px;
+}
+.anoimg{
+	padding: 5px;
+	width: 170px;
+	height: 170px;
+	display: block;
+	float: right;
+}
+.fixed{
+	 position: fixed;
+	 bottom: 100px;
+	 right: 200px;
+	 width: 300px;
+ }
